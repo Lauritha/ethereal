@@ -1,0 +1,49 @@
+/*estilos para planes*/
+#planes{
+	padding: 5%;
+	text-align: center;
+	@include titulo-2;
+}
+hr{
+	margin-bottom: 40px;
+}
+.planes{
+	border: solid $blanco 1px;
+	padding: 10px;
+	text-align: center;
+	background-color: $blanco;
+	color: $negro;
+	h2{
+		margin-bottom: 40px;
+	}
+	&:hover{
+		border: 3px solid #9A9A9A;
+		background-color: #E8E7E7;
+	}
+}
+.caja{
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	width: 109%;
+    margin-left: -11px;
+}
+.caja1{
+	border-bottom: solid 1px black;
+	width: 109%;
+    margin-left: -11px;
+}
+.borde{
+	border-right: solid 1px black;
+}
+button{
+	background-color: $negro;
+	color: $blanco;
+	border: none;
+	width: 100%;
+	padding: 15px;
+	margin-top: -14px;
+}
+.icono-pequeño {
+	width: 30%;
+	margin: 10%;
+}

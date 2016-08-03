@@ -1,0 +1,37 @@
+.background{
+	background-color: $bck;
+	padding: 0px;
+}
+.navbar-brand{
+	img{
+    vertical-align: middle;
+    width: 90%;
+    margin-top: -12px;
+	}
+}
+.navbar-default {
+	padding-top: 5px;
+	border: none;
+	.navbar-nav{
+		margin-right: 10px;
+	li{
+		margin-right: 5px;
+		a{
+		color: $lila-light;
+		&:hover{
+			color: $lila-light;
+			border-top: solid 1px $lila-light;
+			border-left: solid 1px $lila-light;
+			border-radius: 5px;
+			margin-top: 1px;
+			padding: 10px;
+			font-weight: bold;
+		}
+		&:visited{
+			color: $blanco;
+		}
+		}
+	}
+}
+}
+    

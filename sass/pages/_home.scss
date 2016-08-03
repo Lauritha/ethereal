@@ -1,0 +1,139 @@
+
+body{
+  font-family: $fuente;
+}
+.fondo{
+
+  background-size: cover;
+}
+.fondo-fixed{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fondo-1 {
+  background-image: url(../images/back-comp.jpg);
+}
+.fondo-2 {
+  background-image: url(../images/back-comp.jpg);
+}
+.fondo-3 {
+  background-image: url(../images/4.jpg);
+}
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+}
+.inicial{
+  margin: 40vh auto;
+  padding: 30px 0;
+  background-color: rgba(255,255,255,0.8);
+  h1{
+    font-weight: bold;
+    font-size: 3em;
+  }
+}
+img{
+  max-width: 100%;
+}
+/*estilos de nosotros*/
+#nosotros{
+  padding: 10%;
+  text-align: center;
+  .logo{
+    margin-top: -60px;
+  }
+  h1{
+    color: $blanco;
+    margin-top: 50px;
+  }
+  h3{
+    color: $blanco;
+    margin-top: 30px;
+  }
+  p{
+    color: $blanco;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 50px;
+  }
+}
+/*estilos de conceptos*/
+#conceptos{
+  text-align: center;
+  padding: 3%;
+  p{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+  h3{
+    margin-left: 20%;
+    margin-bottom: 4px;
+    margin-top: 77px;
+    text-align: initial;
+  }
+  h5{
+    margin-left: -8%;
+    text-align: initial;
+    margin-top: 20px;
+  }
+}
+.fotos-concepto{
+  width: 60%;
+  padding: 3px;
+  border: solid 1px $bck;
+  margin-top: 20px;
+}
+.icon-conceptos{
+  width: 40%;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+.services{
+  text-align: left;
+  margin-left: -40px;
+}
+iframe{
+  margin-top: 32%;
+}
+.inicial{
+  a{
+    text-decoration: none;
+    color: $bck;
+    &:hover{
+      margin-top: 4px;
+      border-bottom: 1px solid $bck;
+      border-right: 1px solid $bck;
+      padding: 4px;
+    }
+  }
+}
+.no-padding{
+  padding: 0;
+}
+/*estilos para equipos*/
+#equipo{
+  padding: 5%;
+  h1{
+    font-family: $fuente;
+    text-align: center;
+    @include titulos;
+  }
+}
+.datos{
+  padding: 30px;
+  h3{
+    @include texto-titulo;
+  }
+  i{
+    @include iconos;
+  }
+  h5{
+    font-weight: $negrita;
+  }
+}
+.abajo{
+  margin-top: 30px;
+}

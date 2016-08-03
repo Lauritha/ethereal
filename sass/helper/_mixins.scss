@@ -1,0 +1,21 @@
+@mixin texto-titulo {
+	color: $bck;
+	font-family: $fuente;
+	font-weight: $negrita;
+}
+@mixin iconos {
+	color: $gris;
+	margin-left: $mr-lf;
+	margin-top: $mr-t;
+	font-size: $em;
+}
+@mixin titulos{
+	color: $negro;
+	font-weight: $negrita;
+	margin-bottom: $mr-bot;
+}
+@mixin titulo-2{
+	color: $blanco;
+	font-weight: $negrita;
+	margin-bottom: $mr-bot;
+}

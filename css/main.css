@@ -1,0 +1,268 @@
+@charset "UTF-8";
+.background {
+  background-color: #400251;
+  padding: 0px; }
+
+.navbar-brand img {
+  vertical-align: middle;
+  width: 90%;
+  margin-top: -12px; }
+
+.navbar-default {
+  padding-top: 5px;
+  border: none; }
+  .navbar-default .navbar-nav {
+    margin-right: 10px; }
+    .navbar-default .navbar-nav li {
+      margin-right: 5px; }
+      .navbar-default .navbar-nav li a {
+        color: #FCEEFF; }
+        .navbar-default .navbar-nav li a:hover {
+          color: #FCEEFF;
+          border-top: solid 1px #FCEEFF;
+          border-left: solid 1px #FCEEFF;
+          border-radius: 5px;
+          margin-top: 1px;
+          padding: 10px;
+          font-weight: bold; }
+        .navbar-default .navbar-nav li a:visited {
+          color: #FFFFFF; }
+
+.logo-final {
+  width: 30%;
+  margin-top: 20px; }
+
+.texto-final {
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px; }
+
+footer a {
+  color: #A2A2A2;
+  text-decoration: none; }
+  footer a:hover {
+    margin-top: 2px;
+    color: #FFFFFF;
+    text-decoration: none; }
+
+.rrss {
+  margin-left: 260px;
+  margin-top: 10px; }
+
+.final {
+  margin-top: 20px; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
+.fondo {
+  background-size: cover; }
+
+.fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.fondo-1 {
+  background-image: url(../images/back-comp.jpg); }
+
+.fondo-2 {
+  background-image: url(../images/back-comp.jpg); }
+
+.fondo-3 {
+  background-image: url(../images/4.jpg); }
+
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center; }
+
+.inicial {
+  margin: 40vh auto;
+  padding: 30px 0;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .inicial h1 {
+    font-weight: bold;
+    font-size: 3em; }
+
+img {
+  max-width: 100%; }
+
+/*estilos de nosotros*/
+#nosotros {
+  padding: 10%;
+  text-align: center; }
+  #nosotros .logo {
+    margin-top: -60px; }
+  #nosotros h1 {
+    color: #FFFFFF;
+    margin-top: 50px; }
+  #nosotros h3 {
+    color: #FFFFFF;
+    margin-top: 30px; }
+  #nosotros p {
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 50px; }
+
+/*estilos de conceptos*/
+#conceptos {
+  text-align: center;
+  padding: 3%; }
+  #conceptos p {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%; }
+  #conceptos h3 {
+    margin-left: 20%;
+    margin-bottom: 4px;
+    margin-top: 77px;
+    text-align: initial; }
+  #conceptos h5 {
+    margin-left: -8%;
+    text-align: initial;
+    margin-top: 20px; }
+
+.fotos-concepto {
+  width: 60%;
+  padding: 3px;
+  border: solid 1px #400251;
+  margin-top: 20px; }
+
+.icon-conceptos {
+  width: 40%;
+  margin-top: 20%;
+  margin-left: 40%; }
+
+.services {
+  text-align: left;
+  margin-left: -40px; }
+
+iframe {
+  margin-top: 32%; }
+
+.inicial a {
+  text-decoration: none;
+  color: #400251; }
+  .inicial a:hover {
+    margin-top: 4px;
+    border-bottom: 1px solid #400251;
+    border-right: 1px solid #400251;
+    padding: 4px; }
+
+.no-padding {
+  padding: 0; }
+
+/*estilos para equipos*/
+#equipo {
+  padding: 5%; }
+  #equipo h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px; }
+
+.datos {
+  padding: 30px; }
+  .datos h3 {
+    color: #400251;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold; }
+  .datos i {
+    color: #A2A2A2;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.2em; }
+  .datos h5 {
+    font-weight: bold; }
+
+.abajo {
+  margin-top: 30px; }
+
+/*estilos para planes*/
+#planes {
+  padding: 5%;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+hr {
+  margin-bottom: 40px; }
+
+.planes {
+  border: solid #FFFFFF 1px;
+  padding: 10px;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #000000; }
+  .planes h2 {
+    margin-bottom: 40px; }
+  .planes:hover {
+    border: 3px solid #9A9A9A;
+    background-color: #E8E7E7; }
+
+.caja {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  width: 109%;
+  margin-left: -11px; }
+
+.caja1 {
+  border-bottom: solid 1px black;
+  width: 109%;
+  margin-left: -11px; }
+
+.borde {
+  border-right: solid 1px black; }
+
+button {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  margin-top: -14px; }
+
+.icono-peque├▒o {
+  width: 30%;
+  margin: 10%; }
+
+/*estilos de contact*/
+i {
+  color: #A2A2A2;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 1.2em; }
+
+input {
+  width: 90%;
+  padding: 5px;
+  margin-top: 20px; }
+
+textarea {
+  width: 90%;
+  margin-top: 20px; }
+
+#contacto {
+  padding: 5%; }
+  #contacto h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px; }
+
+.enviar2 {
+  width: 30%;
+  margin-top: 40px;
+  background-color: #5B5A5A;
+  font-weight: bold; }
+  .enviar2:hover {
+    background-color: #000000;
+    border: 2px #A2A2A2 solido; }
+
+/*# sourceMappingURL=main.css.map */

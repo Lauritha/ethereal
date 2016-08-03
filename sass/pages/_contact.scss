@@ -1,0 +1,30 @@
+/*estilos de contact*/
+i{
+	@include iconos;
+}
+input{
+	width: 90%;
+	padding: 5px;
+	margin-top: 20px;
+}
+textarea{
+	width: 90%;
+	margin-top: 20px;
+}
+#contacto{
+	padding: 5%;
+	h1{
+		text-align: center;
+		@include titulos;
+	}
+}
+.enviar2{
+	width: 30%;
+	margin-top: 40px;
+	background-color: #5B5A5A;
+	font-weight: bold;
+	&:hover{
+		background-color: $negro;
+		border: 2px $gris solido;
+	}
+}

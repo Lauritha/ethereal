@@ -1,0 +1,27 @@
+.logo-final{
+	width: 30%;
+	margin-top: $mr-t;
+}
+.texto-final{
+	@include titulo-2;
+	text-align: center;
+	margin-top: 20px;
+}
+footer{
+	a{
+		color: $gris;
+		text-decoration: none;
+		&:hover{
+			margin-top: 2px;
+			color: $blanco;
+			text-decoration: none;
+		}
+	}
+}
+.rrss{
+	margin-left: 260px;
+    margin-top: 10px;
+}
+.final{
+	margin-top: $mr-t;
+}
